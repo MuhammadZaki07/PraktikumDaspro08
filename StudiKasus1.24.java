@@ -9,7 +9,7 @@ class jobsheet07 {
         System.out.print("Masukan jumlah cup : ");
         jumlahCup = sc.nextInt();
 
-        System.out.print("Masukan Uang yang dibayar : ");
+        System.out.print("Masukan uang yang dibayar : ");
         uangBayar = sc.nextInt();
 
         totalHarga = jumlahCup * hargaPerCup;
