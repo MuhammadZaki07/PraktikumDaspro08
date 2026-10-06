@@ -29,6 +29,18 @@ public class jobsheet {
                     System.out.println("dokumen tidak lengkap (kurang " + (4 - jumlahDoc) + " dokumen). Dana penghargaan tidak di berikan ");
                 }
             }
+        } else if (jenisKegiatan.equals("PKM")) {
+            System.out.print("Stataus Pendanaan : ");
+            statusPendanaanPKM = sc.nextBoolean();
+
+            if (statusPendanaanPKM) {
+                System.out.println("Dana di berikan");
+            } else {
+                System.out.println("Dana tidak di berikan");
+            }
+        } else {
+            System.out.println("Tidak memperoloeh dana penghargaan");
+            System.out.println("Silahkan anda meilih cabang lomba yang lain");
         }
     }
 }
