@@ -16,12 +16,6 @@ Berikut adalah data diri singkat saya:
 
 ---
 
-## Status dan Teknologi
-
-![GitHub repo size](https://shields.io)
-![Status Kuliah](https://shields.io)
-![Kelas](https://shields.io)
-
 ### Teknologi dan Alat yang Dipelajari
 * **Bahasa Pemrograman:** HTML, CSS, JavaScript / Python / Java (Silakan sesuaikan dengan mata kuliah Anda)
 * **Perangkat Lunak:** Git, GitHub, Visual Studio Code
@@ -34,10 +28,5 @@ Berikut adalah data diri singkat saya:
 * Memantau perkembangan belajar coding dari semester awal.
 
 ---
-
-## Kontak dan Tautan
-Jika Anda ingin berdiskusi atau memberikan masukan, silakan hubungi saya melalui:
-* **GitHub:** [ZakiUlumuddin](https://github.com)
-* **Email:** email.anda@example.com
 
 Terima kasih sudah berkunjung ke repository ini.
