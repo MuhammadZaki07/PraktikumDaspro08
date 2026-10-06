@@ -11,5 +11,27 @@ class jobsheet07 {
 
         System.out.print("Masukan Uang yang dibayar : ");
         uangBayar = sc.nextInt();
+
+        totalHarga = jumlahCup * hargaPerCup;
+
+        if (totalHarga > 100000) {
+            diskon = totalHarga * (10 * 100);
+        }
+
+        totalBayar = totalHarga - diskon;
+
+        System.out.println("Total harga : " + totalHarga);
+        System.out.println("Diskon : " + diskon);
+        System.out.println("Total bayar : " + totalBayar);
+
+
+        if (uangBayar >= totalBayar) {
+            kembalian = totalHarga - totalBayar;
+            System.out.println("Kembalian : " + kembalian);
+        }
+
+        kurang = totalBayar - uangBayar;
+
+        System.out.println("Uang tidak cukup, kurang " + kurang);
     }
 }
